@@ -36,7 +36,7 @@ header #logo span {
 	font-family: "Anton", serif;
 }
 
-@media (min-width: 701px) {
+	@media (min-width: 701px) {
 	#logo {
 		float: left;
 		width: 30%;

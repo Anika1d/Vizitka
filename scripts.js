@@ -13,10 +13,25 @@ $(document).on("scroll", function () {
 $(document).ready(function(){
   $("#hidden1").fadeTo(2000, 1);
   $("#hidden2").fadeTo(5000, 1);
-});//почему не работает fadeIn? Блеят!
+});
 
 $(document).scroll(function () {
   if($(window).scrollTop() > 200){
     $("#main").fadeTo(1000, 1);
   }
+
+});
+
+$(document).scroll(function () {
+  if($(window).scrollTop() > 200){
+    $("#main_aleksandr").fadeTo(1000, 1);
+  }
+
+});
+
+$(document).scroll(function () {
+  if($(window).scrollTop() > 200){
+    $("#main_vladimir").fadeTo(1000, 1);
+  }
+
 });
